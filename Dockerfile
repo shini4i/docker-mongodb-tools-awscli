@@ -1,6 +1,6 @@
 FROM ubuntu:20.04
 
-ENV MONGODB_TOOLS_VERSION=6.0.2
+ENV MONGODB_TOOLS_VERSION=6.0.3
 
 RUN apt update \
  && apt install wget gnupg -y
